@@ -1,5 +1,9 @@
 # Random Meal Generator App
 
-## YouTube video
+#### https://random-dish-generator.netlify.app
 
-[https://www.youtube.com/watch?v=Hk38BsHYqrA]
+### YouTube video
+
+[https://www.youtube.com/watch?v=Hk38BsHYqrA&t]
+
+Like and subscribe
