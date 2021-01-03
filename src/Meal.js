@@ -17,14 +17,20 @@ const Meal = () => {
 
   return (
     <>
-      <div className='button'>
-        <button onClick={() => fetchFood()} className='btn'>
+      <div className="button">
+        <button onClick={() => fetchFood()} className="btn">
           Generate Meal
         </button>
       </div>
-      <section className='meals'>
+      <section className="meals">
         {food.map((f) => {
-          const { idMeal, strMeal, strInstructions, strMealThumb } = f
+          const {
+            idMeal,
+            strMeal,
+            strInstructions,
+            strMealThumb,
+            strSource,
+          } = f
 
           return (
             <article key={idMeal}>
@@ -34,8 +40,11 @@ const Meal = () => {
               </div>
               <div>
                 <h3>How to cook</h3>
-                <div className='underline'></div>
+                <div className="underline"></div>
                 <p>{strInstructions}</p>
+                <a href={strSource} target="_blank" rel="noopenner noreferrer">
+                  Source
+                </a>
               </div>
             </article>
           )
