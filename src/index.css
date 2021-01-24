@@ -4,6 +4,14 @@
   box-sizing: border-box;
 }
 
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin: 10px 0;
+}
+
 img {
   max-width: 100%;
 }
@@ -27,7 +35,6 @@ h1 {
   width: 50px;
   height: 5px;
   background-color: #000;
-  margin: 10px auto 20px;
 }
 
 .button {
@@ -37,16 +44,16 @@ h1 {
 .button .btn {
   padding: 8px;
   border-radius: 5px;
-  border: 2px solid #0b0b53;
-  background-color: #0b0b53;
+  border: 2px solid #92400e;
+  background-color: #92400e;
   color: #fff;
   cursor: pointer;
   transition: background-color 0.2s;
 }
 
 .button .btn:hover {
-  background-color: #fff;
-  color: #0b0b53;
+  background-color: #79350b;
+  border: 2px solid #79350b;
 }
 
 .meals {
@@ -80,6 +87,10 @@ h1 {
   .meals article {
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
+  }
+
+  .meals article h2 {
+    text-align: left;
   }
 
   .meals article h3 {
