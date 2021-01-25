@@ -24,6 +24,7 @@ const Meal = () => {
       </div>
       <section className="meals">
         {food.map((f) => {
+          // I wonder if there is an easier way to do this...or maybe not destructuring and then using dot notation to access the values...
           const {
             idMeal,
             strMeal,
